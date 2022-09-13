@@ -1,0 +1,16 @@
+package com.amazon.generic;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import org.apache.poi.EncryptedDocumentException;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
+
+public class FileLib {
+	public String setExcelFile(String sheetname, int row, int cell) throws EncryptedDocumentException, IOException {
+		FileInputStream fis=new FileInputStream("./data/Amazon.xlsx");
+		Workbook wb = WorkbookFactory.create(fis);
+		String data = wb.getSheet(sheetname).getRow(row).getCell(cell).getStringCellValue();
+		return data;
+	}
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Pass]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-09-13T18:18:14 IST" name="Default suite" finished-at="2022-09-13T18:19:29 IST" duration-ms="74600">
+    <groups>
+    </groups>
+    <test started-at="2022-09-13T18:18:14 IST" name="Default test" finished-at="2022-09-13T18:19:29 IST" duration-ms="74600">
+      <class name="com.amazon.testscripts.View_Cart">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.amazon.testscripts.View_Cart@5fbdfdcf]" started-at="2022-09-13T18:18:14 IST" name="openBrowser" finished-at="2022-09-13T18:18:16 IST" duration-ms="1401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="UrlEnter()[pri:0, instance:com.amazon.testscripts.View_Cart@5fbdfdcf]" started-at="2022-09-13T18:18:16 IST" name="UrlEnter" finished-at="2022-09-13T18:18:30 IST" duration-ms="14447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UrlEnter -->
+        <test-method signature="viewCart()[pri:0, instance:com.amazon.testscripts.View_Cart@5fbdfdcf]" started-at="2022-09-13T18:18:30 IST" name="viewCart" finished-at="2022-09-13T18:19:29 IST" duration-ms="58720" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- viewCart -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.amazon.testscripts.View_Cart@5fbdfdcf]" started-at="2022-09-13T18:19:29 IST" name="closeBrowser" finished-at="2022-09-13T18:19:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.amazon.testscripts.View_Cart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
